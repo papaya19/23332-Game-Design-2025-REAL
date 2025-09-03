@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0d1kqvv176ur"]
+
+[ext_resource type="Script" uid="uid://b1hi8bfw4dxk3" path="res://scripts/ruins.gd" id="1_08m1a"]
+[ext_resource type="AudioStream" uid="uid://bpsnp2m0n5pts" path="res://mus/mus_ruins.ogg" id="2_vdeh8"]
+
+[node name="Ruins" type="Node"]
+script = ExtResource("1_08m1a")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_vdeh8")

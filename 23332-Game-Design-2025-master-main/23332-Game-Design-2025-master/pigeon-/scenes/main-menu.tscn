@@ -1,0 +1,83 @@
+[gd_scene load_steps=5 format=3 uid="uid://c0qtbtp8m3g8r"]
+
+[ext_resource type="FontFile" uid="uid://cqku5wk0owsk1" path="res://misc/impact.ttf" id="1_hf3n6"]
+[ext_resource type="Script" uid="uid://djv27bjtiv165" path="res://scripts/main_menu.gd" id="1_xg1py"]
+[ext_resource type="Script" uid="uid://b4l6o4iwwka2f" path="res://scripts/button.gd" id="3_0u6b5"]
+[ext_resource type="AudioStream" uid="uid://ck1hsq2spl2lg" path="res://mus/menu.ogg" id="4_xg1py"]
+
+[node name="Control" type="Control" groups=["less_music", "no_music"]]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 6
+size_flags_vertical = 6
+script = ExtResource("1_xg1py")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -1261.0
+offset_top = -566.0
+offset_right = 1134.0
+offset_bottom = 608.0
+color = Color(0.259294, 0.259294, 0.259294, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = -187.0
+offset_top = -266.0
+offset_right = 141.0
+offset_bottom = -130.0
+theme_override_colors/default_color = Color(1, 0.772549, 0, 1)
+theme_override_colors/font_selected_color = Color(1, 0.772549, 0, 1)
+theme_override_colors/selection_color = Color(1, 0.772549, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 0.772549, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 0.772549, 0, 0)
+theme_override_fonts/normal_font = ExtResource("1_hf3n6")
+theme_override_font_sizes/normal_font_size = 100
+text = "PIGEON*"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = -183.0
+offset_top = -154.0
+offset_right = 57.0
+offset_bottom = -117.0
+theme_override_colors/default_color = Color(1, 0.772549, 0, 1)
+text = "*no wings included"
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = -166.0
+offset_top = -51.0
+offset_right = 130.0
+offset_bottom = 61.0
+theme_override_colors/font_disabled_color = Color(1, 0.827451, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.827451, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 0.827451, 0, 1)
+theme_override_colors/font_color = Color(1, 0.827451, 0, 1)
+theme_override_fonts/font = ExtResource("1_hf3n6")
+theme_override_font_sizes/font_size = 62
+text = "START"
+script = ExtResource("3_0u6b5")
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = -157.0
+offset_top = 116.0
+offset_right = 130.0
+offset_bottom = 219.0
+theme_override_colors/font_color = Color(0.878431, 0.768627, 0, 1)
+theme_override_fonts/font = ExtResource("1_hf3n6")
+theme_override_font_sizes/font_size = 43
+text = "SETTINGS"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_xg1py")
+autoplay = true
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

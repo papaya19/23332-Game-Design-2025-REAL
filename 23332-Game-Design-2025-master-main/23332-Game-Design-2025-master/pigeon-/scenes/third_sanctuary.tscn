@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dx2de0r048ole"]
+
+[ext_resource type="Script" uid="uid://d4jhq1ul1kogk" path="res://scripts/third_sanctuary.gd" id="1_oe7xa"]
+[ext_resource type="AudioStream" uid="uid://d0wxgcdjr77wi" path="res://mus/later_levels.ogg" id="2_1235k"]
+
+[node name="third sanctuary" type="Node"]
+script = ExtResource("1_oe7xa")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_1235k")

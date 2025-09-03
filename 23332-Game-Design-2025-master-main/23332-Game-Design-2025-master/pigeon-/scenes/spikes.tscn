@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://dw64olvn54de1"]
+
+[ext_resource type="Script" uid="uid://d434bh1by5j" path="res://scripts/spikes.gd" id="1_nrdsm"]
+[ext_resource type="Texture2D" uid="uid://cr8tbu03jfjb3" path="res://misc/spike.png" id="2_nrdsm"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_nrdsm"]
+radius = 24.0
+height = 82.0
+
+[node name="spikes" type="Area2D" groups=["spikes"]]
+collision_layer = 3
+collision_mask = 3
+script = ExtResource("1_nrdsm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(135, 71)
+shape = SubResource("CapsuleShape2D_nrdsm")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.608
+
+[node name="Spike" type="Sprite2D" parent="."]
+position = Vector2(135.286, 60.75)
+scale = Vector2(0.218198, 0.29902)
+texture = ExtResource("2_nrdsm")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

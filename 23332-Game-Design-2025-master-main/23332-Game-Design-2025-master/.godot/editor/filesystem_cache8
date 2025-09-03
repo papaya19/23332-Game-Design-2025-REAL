@@ -1,0 +1,9 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1742417146
+icon.svg::CompressedTexture2D::1608711967259665186::1741740226::1741740246::1::::<><>::
+main.tscn::PackedScene::8451241323326502954::1742331402::0::1::::<><>::uid://b867ofeu17wbh::::res://New Piskel.png<>uid://b1b7lmmwawvk8::::res://player.tscn
+mario.png::CompressedTexture2D::5673396597143087609::1741741054::1741741054::1::::<><>::
+New Piskel-1.png.png::CompressedTexture2D::3045041511895609788::1741822946::1741822946::1::::<><>::
+New Piskel.png::CompressedTexture2D::4768616448747922977::1741822956::1741822956::1::::<><>::
+player.gd::GDScript::-1::1741742226::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::4215358233355806905::1742331402::0::1::::<><>::uid://cm3iapdmlctuf::::res://mario.png<>res://player.gd

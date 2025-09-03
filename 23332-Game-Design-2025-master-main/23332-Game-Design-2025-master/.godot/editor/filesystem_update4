@@ -1,0 +1,9 @@
+res://scenes/otherspike.tscn
+res://scenes/main.tscn
+res://scenes/Player.tscn
+res://scenes/flag.tscn
+res://scenes/win.tscn
+res://scenes/spikes.tscn
+res://scenes/lava.tscn
+res://scenes/beeg_spike.tscn
+res://code/player.gd

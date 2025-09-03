@@ -1,0 +1,29 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1744066604
+::res://code/::1743976311
+beeg_spike.gd::GDScript::8378531594003229259::1743626903::0::1::::<>Area2D<><>0<>0<><>::
+button.gd::GDScript/GDScript::4701699907290718419::1743031265::0::1::::<>Button<><>0<>0<><>::
+flag.gd::GDScript/GDScript::5840216684220028255::1743031265::0::1::::<>Area2D<><>0<>0<><>::
+lava.gd::GDScript::8160906830884259309::1743375481::0::1::::<>Area2D<><>0<>0<><>::
+otherspike.gd::GDScript::86410968764375053::1743627676::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript::1792761620072283049::1743976123::0::1::::<>CharacterBody2D<><>0<>0<><>::
+spikes.gd::GDScript::6064011835336838120::1743375176::0::1::::<>Area2D<><>0<>0<><>::
+::res://images/::1743627335
+234-2343253_spike-pixel.png::CompressedTexture2D/CompressedTexture2D::2219156254645667997::1743031175::1743031285::1::::<><><>0<>0<>2398f197e77ccdb7bedbf9ba5b77db76<>res://.godot/imported/234-2343253_spike-pixel.png-36dc12afd2b98b49ddca0fd291a8e124.ctex::
+beegspike.png::CompressedTexture2D/CompressedTexture2D::7379460064528684613::1743626543::1743626543::1::::<><><>0<>0<>588aee97de3c41830baab988f26abe51<>res://.godot/imported/beegspike.png-5e7725bbbe5f20323137703050369147.ctex::
+explode.jpg::CompressedTexture2D/CompressedTexture2D::287686275066101887::1743627334::1743627335::1::::<><><>0<>0<>1135d509ecdcbd8fd3266206ef75aa4d<>res://.godot/imported/explode.jpg-372921d663edc3500d7bc86a6c362c9c.ctex::
+lava.png::CompressedTexture2D/CompressedTexture2D::8808691454263302184::1743375359::1743375359::1::::<><><>0<>0<>aa31e61a5c97f7e92567429df61f7393<>res://.godot/imported/lava.png-559676fe7fa2cb3c64ae89082291ad49.ctex::
+mario.png::CompressedTexture2D/CompressedTexture2D::5673396597143087609::1741741054::1743031288::1::::<><><>0<>0<>00ee14021eca5502dca7736e14ce0500<>res://.godot/imported/mario.png-a52aa03b0bbcd25e44faf74967c248b9.ctex::
+New Piskel-1.png.png::CompressedTexture2D/CompressedTexture2D::3045041511895609788::1742950023::1743031290::1::::<><><>0<>0<>2b96cb1890d767fb1a11162a239d50db<>res://.godot/imported/New Piskel-1.png.png-f34a8ab5afbb8d14c4b82125da3a0b50.ctex::
+New Piskel.png::CompressedTexture2D/CompressedTexture2D::4768616448747922977::1743374495::1743374495::1::::<><><>0<>0<>5c477ecd6bc560b8af010d23100a496d<>res://.godot/imported/New Piskel.png-5dbe073087590f84f5d1a76ed55326d3.ctex::
+otherspike.png::CompressedTexture2D/CompressedTexture2D::4793070488850258947::1743626540::1743626548::1::::<><><>0<>0<>74acd5126291d14e44c798d3e1ad92d8<>res://.godot/imported/otherspike.png-f02b63ffdecf4e9878b028a599dd77c9.ctex::
+spikes.png::CompressedTexture2D/CompressedTexture2D::213154266886769365::1743374591::1743374592::1::::<><><>0<>0<>c19f879df0dea7b7e4e8060568e564cd<>res://.godot/imported/spikes.png-29918233592651d6401a4d1709d69445.ctex::
+::res://scenes/::1743976516
+beeg_spike.tscn::PackedScene::3348841388925142541::1743976516::0::1::::<><><>0<>0<><>::uid://drmvgrcjqg588::::res://code/beeg_spike.gd<>uid://ddewvnistysy4::::res://images/beegspike.png
+flag.tscn::PackedScene::4056313032826144574::1743976124::0::1::::<><><>0<>0<><>::uid://bjnbnhp8g0uc7::::res://images/New Piskel-1.png.png<>uid://cphbrr7dvsbp4::::res://code/flag.gd
+lava.tscn::PackedScene::1503607500159108551::1743976311::0::1::::<><><>0<>0<><>::uid://dojg7ck2cf87b::::res://code/lava.gd<>uid://dxq84jv8g8401::::res://images/lava.png
+main.tscn::PackedScene::8451241323326502954::1743976305::0::1::::<><><>0<>0<><>::uid://b867ofeu17wbh::::res://images/New Piskel.png<>uid://b1b7lmmwawvk8::::res://scenes/Player.tscn<>uid://bx155a1b6vbpe::::res://scenes/flag.tscn<>uid://dx0nnlj267pya::::res://scenes/spikes.tscn<>uid://vomgwnuqsf4j::::res://scenes/lava.tscn<>uid://bnyg6th8l5dll::::res://scenes/beeg_spike.tscn<>uid://btxknyr4pkxdk::::res://scenes/otherspike.tscn
+otherspike.tscn::PackedScene::3768121074567690092::1743976311::0::1::::<><><>0<>0<><>::uid://caj2f2khfb3n8::::res://images/otherspike.png<>uid://bh4f8qyhx8gv::::res://code/otherspike.gd
+Player.tscn::PackedScene::4215358233355806905::1743976124::0::1::::<><><>0<>0<><>::uid://cm3iapdmlctuf::::res://images/mario.png<>uid://0sor0m8yldiv::::res://code/player.gd
+spikes.tscn::PackedScene::8826028027761820156::1743976311::0::1::::<><><>0<>0<><>::uid://csnpnhv4vy745::::res://code/spikes.gd<>uid://dbivckcod6e0::::res://images/spikes.png
+win.tscn::PackedScene::2421090866848886086::1743976124::0::1::::<><><>0<>0<><>::uid://b78sks8x73636::::res://code/button.gd
