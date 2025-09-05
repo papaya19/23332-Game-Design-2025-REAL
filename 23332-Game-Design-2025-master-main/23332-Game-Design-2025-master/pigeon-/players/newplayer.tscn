@@ -258,6 +258,7 @@ shape = SubResource("CapsuleShape2D_1y5ca")
 
 [node name="blood" type="CPUParticles2D" parent="."]
 position = Vector2(707, 686)
+emitting = false
 amount = 100
 texture = ExtResource("2_as5ao")
 emission_shape = 1
@@ -275,6 +276,7 @@ scale_curve_y = null
 
 [node name="feathers" type="CPUParticles2D" parent="."]
 position = Vector2(707, 686)
+emitting = false
 amount = 75
 texture = ExtResource("4_oasp1")
 emission_shape = 1
@@ -288,6 +290,7 @@ angular_velocity_curve = SubResource("Curve_x8qrg")
 
 [node name="bones" type="CPUParticles2D" parent="."]
 position = Vector2(707, 686)
+emitting = false
 amount = 25
 texture = ExtResource("4_as5ao")
 emission_shape = 1
@@ -308,7 +311,7 @@ animation = &"death"
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(711, 685)
+position = Vector2(712, 685)
 shape = SubResource("CapsuleShape2D_1y5ca")
 
 [connection signal="timeout" from="CoyoteTimer" to="." method="_on_coyote_timer_timeout"]
